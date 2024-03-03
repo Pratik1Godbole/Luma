@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" parallel="tests" thread-count="2">
+    <test name="TestFirefox">
+        <parameter name="browserName" value="Chrome" />
+        <classes>
+            <class name="com.softwaretestingboard.magento.Test.CartTest" />
+            <class name="com.softwaretestingboard.magento.Test.CheckOutTest" />
+            <class name="com.softwaretestingboard.magento.Test.HomePageTest" />
+            <class name="com.softwaretestingboard.magento.Test.LogOutTest" />
+            <class name="com.softwaretestingboard.magento.Test.ProductDetailsTest" />
+            <class name="com.softwaretestingboard.magento.Test.Products" />
+            <class name="com.softwaretestingboard.magento.Test.SignInTest" />
+            <class name="com.softwaretestingboard.magento.Test.SignUpTest" />
+            
+            
+           
+            
+        </classes>
+    </test>
+    
+</suite>
