@@ -50,7 +50,7 @@ public class CheckOutPage extends BaseClass {
 	@FindBy(xpath="//input[@id='billing-address-same-as-shipping-checkmo']")
 	private WebElement BillingShippingAddCheckBox;
 
-	@FindBy(xpath="//*[@id=\"checkout-payment-method-load\"]/div/div/div[2]/div[2]/div[4]/div/button/span")
+	@FindBy(xpath="//span[text()='Place Order']")
 	private WebElement placeOrderBtn;
 
 	@FindBy(xpath ="//span[text()='Thank you for your purchase!']")
@@ -58,7 +58,9 @@ public class CheckOutPage extends BaseClass {
 
 	//	@FindBy(xpath = "//*[@class=\"payment-method-content\"]")
 	//	private WebElement Overlap;
-
+	
+	@FindBy(xpath = "//div[@data-role='loader']/div/img")
+	private WebElement loader;
 
 	public void LoginWhileCheckout()  {
 		PD = new ProductDetailsPage();
@@ -80,22 +82,14 @@ public class CheckOutPage extends BaseClass {
 
 	}
 
-	@SuppressWarnings("deprecation")
 	public void PlaceOrder() {
 
 		wait = new WebDriverWait(driver, Duration.ofSeconds(3000));
 
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		executor.executeScript("arguments[0].scrollIntoView(true);",placeOrderBtn);
-
-				try{
-					Thread.sleep(3000);
-				}catch(Exception e) {
-					e.getMessage();
-				}
-		
-//		utils.waitForClickableElement(driver,placeOrderBtn , Duration.ofSeconds(3));
 				
+		wait.until(ExpectedConditions.invisibilityOf(loader));
 				
 				placeOrderBtn.click();
 				

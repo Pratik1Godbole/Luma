@@ -40,6 +40,12 @@ public class utils {
 		return wait.until(ExpectedConditions.elementToBeClickable(element));
 
 	}	
+	
+	
+	public static Boolean waitforElementtoDis(WebDriver driver, WebElement element,Duration timeoutInSeconds ) {
+		WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
+		return wait.until(ExpectedConditions.invisibilityOf(element));
+	}
 
 	static{
 		try {
@@ -195,6 +201,9 @@ public class utils {
 		WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id(elementId)));
 	}
+	
+	
+	
 
 	public static boolean isElementPresent(By locator) {
 		try {

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.softwaretestingboard.magento.Test.ProductDetailsTest">
+      <class name="com.softwaretestingboard.magento.Test.CheckOutTest">
         <methods>
           <include name="setUp"/>
-          <include name="VerifyRemoveProdFromWishList"/>
+          <include name="VerifyLoginWhileCheckOutPeod"/>
         </methods>
-      </class> <!-- com.softwaretestingboard.magento.Test.ProductDetailsTest -->
+      </class> <!-- com.softwaretestingboard.magento.Test.CheckOutTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

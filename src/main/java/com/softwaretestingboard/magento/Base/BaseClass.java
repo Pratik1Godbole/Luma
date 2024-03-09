@@ -84,14 +84,14 @@ public class BaseClass {
 	}
 
 
-
-		@AfterMethod
-		public void tearDown() {
-			// Close the WebDriver instance
-			if (driver != null) {
-				driver.quit();
-			}
-		}
+//
+//		@AfterMethod
+//		public void tearDown() {
+//			// Close the WebDriver instance
+//			if (driver != null) {
+//				driver.quit();
+//			}
+//		}
 }
 
 
