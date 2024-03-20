@@ -4,13 +4,6 @@
   <test thread-count="2" parallel="tests" name="TestFirefox(failed)">
     <parameter name="browserName" value="Chrome"/>
     <classes>
-      <class name="com.softwaretestingboard.magento.Test.CartTest">
-        <methods>
-          <include name="VerifyEditBtnInCart"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.softwaretestingboard.magento.Test.CartTest -->
       <class name="com.softwaretestingboard.magento.Test.SignUpTest">
         <methods>
           <include name="setUp"/>
@@ -18,6 +11,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.softwaretestingboard.magento.Test.SignUpTest -->
+      <class name="com.softwaretestingboard.magento.Test.CartTest">
+        <methods>
+          <include name="VerifyEditBtnInCart"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.softwaretestingboard.magento.Test.CartTest -->
     </classes>
   </test> <!-- TestFirefox(failed) -->
 </suite> <!-- Failed suite [ParallelSuite] -->

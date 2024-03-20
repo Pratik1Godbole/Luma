@@ -7,6 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="VerifyLoginWhileCheckOutPeod"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.softwaretestingboard.magento.Test.CheckOutTest -->
     </classes>

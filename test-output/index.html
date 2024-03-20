@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-ParallelSuite" class="navigator-link">
+              <span class="suite-name border-failed">ParallelSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\prati\AppData\Local\Temp\testng-eclipse-274024843\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-ParallelSuite" class="navigator-link ">
+                    <span>C:\Users\prati\OneDrive\Desktop\Java Projects\Luma\TestNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-ParallelSuite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-ParallelSuite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-ParallelSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-ParallelSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-ParallelSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-ParallelSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,21 +93,150 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">25 methods, 2 failed,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ParallelSuite" class="hide-methods failed suite-ParallelSuite"> (hide)</a> <!-- hide-methods failed suite-ParallelSuite -->
+                      <a href="#" panel-name="suite-ParallelSuite" class="show-methods failed suite-ParallelSuite"> (show)</a> <!-- show-methods failed suite-ParallelSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-ParallelSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.SignUpTest" class="method navigator-link" hash-for-method="SignUp">SignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.CartTest" class="method navigator-link" hash-for-method="VerifyEditBtnInCart">VerifyEditBtnInCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ParallelSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-ParallelSuite" class="hide-methods passed suite-ParallelSuite"> (hide)</a> <!-- hide-methods passed suite-ParallelSuite -->
+                      <a href="#" panel-name="suite-ParallelSuite" class="show-methods passed suite-ParallelSuite"> (show)</a> <!-- show-methods passed suite-ParallelSuite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-ParallelSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.softwaretestingboard.magento.Test.CheckOutTest" class="method navigator-link" hash-for-method="VerifyLoginWhileCheckOutPeod">VerifyLoginWhileCheckOutPeod</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.Products" class="method navigator-link" hash-for-method="AddMultipleProdTOCart">AddMultipleProdTOCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.Products" class="method navigator-link" hash-for-method="AddProductToCartFromWomenDD">AddProductToCartFromWomenDD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.ProductDetailsTest" class="method navigator-link" hash-for-method="AddToCartProdFromProdDetailsPage">AddToCartProdFromProdDetailsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.SignInTest" class="method navigator-link" hash-for-method="CreateNewAccOnSignInPage">CreateNewAccOnSignInPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.SignInTest" class="method navigator-link" hash-for-method="ForgotpassBtn">ForgotpassBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.LogOutTest" class="method navigator-link" hash-for-method="LogOut">LogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.SignInTest" class="method navigator-link" hash-for-method="SignInValidCred">SignInValidCred</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.SignInTest" class="method navigator-link" hash-for-method="SignInWithInvalidCred">SignInWithInvalidCred</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.ProductDetailsTest" class="method navigator-link" hash-for-method="VerifyAddToWishlistWithLogin">VerifyAddToWishlistWithLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.ProductDetailsTest" class="method navigator-link" hash-for-method="VerifyAddToWishlistWithoutLogin">VerifyAddToWishlistWithoutLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.ProductDetailsTest" class="method navigator-link" hash-for-method="VerifyAddreviewtoProduct">VerifyAddreviewtoProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.ProductDetailsTest" class="method navigator-link" hash-for-method="VerifyAddtoCartProdWithoutSelectingSize">VerifyAddtoCartProdWithoutSelectingSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.HomePageTest" class="method navigator-link" hash-for-method="VerifyBlankSearch">VerifyBlankSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.HomePageTest" class="method navigator-link" hash-for-method="VerifyHotSeller">VerifyHotSeller</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.CheckOutTest" class="method navigator-link" hash-for-method="VerifyLoginWhileCheckOutPeod">VerifyLoginWhileCheckOutPeod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.Products" class="method navigator-link" hash-for-method="VerifyPriceOption">VerifyPriceOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.ProductDetailsTest" class="method navigator-link" hash-for-method="VerifyProductDetails">VerifyProductDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.HomePageTest" class="method navigator-link" hash-for-method="VerifyRelatedSearchItems">VerifyRelatedSearchItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.CartTest" class="method navigator-link" hash-for-method="VerifyRemoveProdFromCart">VerifyRemoveProdFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.ProductDetailsTest" class="method navigator-link" hash-for-method="VerifyRemoveProdFromWishList">VerifyRemoveProdFromWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.HomePageTest" class="method navigator-link" hash-for-method="VerifySearchProduct">VerifySearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.Products" class="method navigator-link" hash-for-method="VerifyShowPerPage">VerifyShowPerPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.softwaretestingboard.magento.Test.SignUpTest" class="method navigator-link" hash-for-method="signUpWithRegEmail">signUpWithRegEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ParallelSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,8 +247,312 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-ParallelSuite" class="panel ParallelSuite">
+          <div class="suite-ParallelSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.softwaretestingboard.magento.Test.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUp">
+                  </a> <!-- SignUp -->
+                  <span class="method-name">SignUp</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text() = &apos;Thank you for registering with Main Website Store.&apos;]&quot;}
+  (Session info: chrome=122.0.6261.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5c6861d3d7586ea77f490e329f34005, findElement {using=xpath, value=//*[text() = &apos;Thank you for registering with Main Website Store.&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.128, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\prati\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59972/devtoo..., se:cdpVersion: 122.0.6261.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5c6861d3d7586ea77f490e329f34005
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+	at com.softwaretestingboard.magento.Pages.SignUpPage.signUp(SignUpPage.java:73)
+	at com.softwaretestingboard.magento.Test.SignUpTest.SignUp(SignUpTest.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-failed -->
+          <div class="suite-ParallelSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.softwaretestingboard.magento.Test.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEditBtnInCart">
+                  </a> <!-- VerifyEditBtnInCart -->
+                  <span class="method-name">VerifyEditBtnInCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@id=&quot;shopping-cart-table&quot;]/tbody[1]/tr/td[3]/div/div/label/input&quot;}
+  (Session info: chrome=122.0.6261.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f34a75df4aa18902c0df44bb2e7c393, findElement {using=xpath, value=//table[@id=&quot;shopping-cart-table&quot;]/tbody[1]/tr/td[3]/div/div/label/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.128, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\prati\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58521/devtoo..., se:cdpVersion: 122.0.6261.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f34a75df4aa18902c0df44bb2e7c393
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.getAttribute(Unknown Source)
+	at com.softwaretestingboard.magento.Pages.CartPage.EditAddedProductinCart(CartPage.java:67)
+	at com.softwaretestingboard.magento.Test.CartTest.VerifyEditBtnInCart(CartTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-failed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.softwaretestingboard.magento.Test.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateNewAccOnSignInPage">
+                  </a> <!-- CreateNewAccOnSignInPage -->
+                  <span class="method-name">CreateNewAccOnSignInPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgotpassBtn">
+                  </a> <!-- ForgotpassBtn -->
+                  <span class="method-name">ForgotpassBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignInValidCred">
+                  </a> <!-- SignInValidCred -->
+                  <span class="method-name">SignInValidCred</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignInWithInvalidCred">
+                  </a> <!-- SignInWithInvalidCred -->
+                  <span class="method-name">SignInWithInvalidCred</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.softwaretestingboard.magento.Test.ProductDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartProdFromProdDetailsPage">
+                  </a> <!-- AddToCartProdFromProdDetailsPage -->
+                  <span class="method-name">AddToCartProdFromProdDetailsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddToWishlistWithLogin">
+                  </a> <!-- VerifyAddToWishlistWithLogin -->
+                  <span class="method-name">VerifyAddToWishlistWithLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddToWishlistWithoutLogin">
+                  </a> <!-- VerifyAddToWishlistWithoutLogin -->
+                  <span class="method-name">VerifyAddToWishlistWithoutLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddreviewtoProduct">
+                  </a> <!-- VerifyAddreviewtoProduct -->
+                  <span class="method-name">VerifyAddreviewtoProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddtoCartProdWithoutSelectingSize">
+                  </a> <!-- VerifyAddtoCartProdWithoutSelectingSize -->
+                  <span class="method-name">VerifyAddtoCartProdWithoutSelectingSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyProductDetails">
+                  </a> <!-- VerifyProductDetails -->
+                  <span class="method-name">VerifyProductDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRemoveProdFromWishList">
+                  </a> <!-- VerifyRemoveProdFromWishList -->
+                  <span class="method-name">VerifyRemoveProdFromWishList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.softwaretestingboard.magento.Test.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpWithRegEmail">
+                  </a> <!-- signUpWithRegEmail -->
+                  <span class="method-name">signUpWithRegEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.softwaretestingboard.magento.Test.Products</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMultipleProdTOCart">
+                  </a> <!-- AddMultipleProdTOCart -->
+                  <span class="method-name">AddMultipleProdTOCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddProductToCartFromWomenDD">
+                  </a> <!-- AddProductToCartFromWomenDD -->
+                  <span class="method-name">AddProductToCartFromWomenDD</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPriceOption">
+                  </a> <!-- VerifyPriceOption -->
+                  <span class="method-name">VerifyPriceOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyShowPerPage">
+                  </a> <!-- VerifyShowPerPage -->
+                  <span class="method-name">VerifyShowPerPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.softwaretestingboard.magento.Test.LogOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogOut">
+                  </a> <!-- LogOut -->
+                  <span class="method-name">LogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.softwaretestingboard.magento.Test.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRemoveProdFromCart">
+                  </a> <!-- VerifyRemoveProdFromCart -->
+                  <span class="method-name">VerifyRemoveProdFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.softwaretestingboard.magento.Test.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBlankSearch">
+                  </a> <!-- VerifyBlankSearch -->
+                  <span class="method-name">VerifyBlankSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyHotSeller">
+                  </a> <!-- VerifyHotSeller -->
+                  <span class="method-name">VerifyHotSeller</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRelatedSearchItems">
+                  </a> <!-- VerifyRelatedSearchItems -->
+                  <span class="method-name">VerifyRelatedSearchItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchProduct">
+                  </a> <!-- VerifySearchProduct -->
+                  <span class="method-name">VerifySearchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+          <div class="suite-ParallelSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.softwaretestingboard.magento.Test.CheckOutTest</span>
@@ -133,107 +566,524 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-ParallelSuite-class-passed -->
+        </div> <!-- panel ParallelSuite -->
+        <div panel-name="test-xml-ParallelSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\prati\AppData\Local\Temp\testng-eclipse-274024843\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\prati\OneDrive\Desktop\Java Projects\Luma\TestNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;ParallelSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;TestFirefox&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.softwaretestingboard.magento.Test.CheckOutTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;VerifyLoginWhileCheckOutPeod&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.softwaretestingboard.magento.Test.CheckOutTest --&gt;
+      &lt;class name=&quot;com.softwaretestingboard.magento.Test.CartTest&quot;/&gt;
+      &lt;class name=&quot;com.softwaretestingboard.magento.Test.CheckOutTest&quot;/&gt;
+      &lt;class name=&quot;com.softwaretestingboard.magento.Test.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.softwaretestingboard.magento.Test.LogOutTest&quot;/&gt;
+      &lt;class name=&quot;com.softwaretestingboard.magento.Test.ProductDetailsTest&quot;/&gt;
+      &lt;class name=&quot;com.softwaretestingboard.magento.Test.Products&quot;/&gt;
+      &lt;class name=&quot;com.softwaretestingboard.magento.Test.SignInTest&quot;/&gt;
+      &lt;class name=&quot;com.softwaretestingboard.magento.Test.SignUpTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- TestFirefox --&gt;
+&lt;/suite&gt; &lt;!-- ParallelSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-ParallelSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for ParallelSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">TestFirefox (8 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-ParallelSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for ParallelSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-ParallelSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for ParallelSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_ParallelSuite');
+function tableData_ParallelSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(25);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifyLoginWhileCheckOutPeod')
-data.setCell(0, 2, 'com.softwaretestingboard.magento.Test.CheckOutTest')
-data.setCell(0, 3, 19500);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'VerifyEditBtnInCart')
+data.setCell(0, 2, 'com.softwaretestingboard.magento.Test.CartTest')
+data.setCell(0, 3, 31416);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SignUp')
+data.setCell(1, 2, 'com.softwaretestingboard.magento.Test.SignUpTest')
+data.setCell(1, 3, 23630);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyLoginWhileCheckOutPeod')
+data.setCell(2, 2, 'com.softwaretestingboard.magento.Test.CheckOutTest')
+data.setCell(2, 3, 20812);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyRemoveProdFromWishList')
+data.setCell(3, 2, 'com.softwaretestingboard.magento.Test.ProductDetailsTest')
+data.setCell(3, 3, 14802);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'AddMultipleProdTOCart')
+data.setCell(4, 2, 'com.softwaretestingboard.magento.Test.Products')
+data.setCell(4, 3, 9932);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyAddToWishlistWithLogin')
+data.setCell(5, 2, 'com.softwaretestingboard.magento.Test.ProductDetailsTest')
+data.setCell(5, 3, 9721);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyRemoveProdFromCart')
+data.setCell(6, 2, 'com.softwaretestingboard.magento.Test.CartTest')
+data.setCell(6, 3, 9052);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'AddToCartProdFromProdDetailsPage')
+data.setCell(7, 2, 'com.softwaretestingboard.magento.Test.ProductDetailsTest')
+data.setCell(7, 3, 7498);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AddProductToCartFromWomenDD')
+data.setCell(8, 2, 'com.softwaretestingboard.magento.Test.Products')
+data.setCell(8, 3, 7028);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyAddreviewtoProduct')
+data.setCell(9, 2, 'com.softwaretestingboard.magento.Test.ProductDetailsTest')
+data.setCell(9, 3, 6522);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'LogOut')
+data.setCell(10, 2, 'com.softwaretestingboard.magento.Test.LogOutTest')
+data.setCell(10, 3, 6293);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifyAddToWishlistWithoutLogin')
+data.setCell(11, 2, 'com.softwaretestingboard.magento.Test.ProductDetailsTest')
+data.setCell(11, 3, 5285);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifyShowPerPage')
+data.setCell(12, 2, 'com.softwaretestingboard.magento.Test.Products')
+data.setCell(12, 3, 4894);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'SignInValidCred')
+data.setCell(13, 2, 'com.softwaretestingboard.magento.Test.SignInTest')
+data.setCell(13, 3, 4394);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'VerifyAddtoCartProdWithoutSelectingSize')
+data.setCell(14, 2, 'com.softwaretestingboard.magento.Test.ProductDetailsTest')
+data.setCell(14, 3, 4383);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'signUpWithRegEmail')
+data.setCell(15, 2, 'com.softwaretestingboard.magento.Test.SignUpTest')
+data.setCell(15, 3, 3790);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyPriceOption')
+data.setCell(16, 2, 'com.softwaretestingboard.magento.Test.Products')
+data.setCell(16, 3, 3611);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'VerifyProductDetails')
+data.setCell(17, 2, 'com.softwaretestingboard.magento.Test.ProductDetailsTest')
+data.setCell(17, 3, 3603);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'SignInWithInvalidCred')
+data.setCell(18, 2, 'com.softwaretestingboard.magento.Test.SignInTest')
+data.setCell(18, 3, 3506);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'CreateNewAccOnSignInPage')
+data.setCell(19, 2, 'com.softwaretestingboard.magento.Test.SignInTest')
+data.setCell(19, 3, 2622);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'VerifySearchProduct')
+data.setCell(20, 2, 'com.softwaretestingboard.magento.Test.HomePageTest')
+data.setCell(20, 3, 1990);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ForgotpassBtn')
+data.setCell(21, 2, 'com.softwaretestingboard.magento.Test.SignInTest')
+data.setCell(21, 3, 1845);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'VerifyRelatedSearchItems')
+data.setCell(22, 2, 'com.softwaretestingboard.magento.Test.HomePageTest')
+data.setCell(22, 3, 889);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'VerifyBlankSearch')
+data.setCell(23, 2, 'com.softwaretestingboard.magento.Test.HomePageTest')
+data.setCell(23, 3, 151);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'VerifyHotSeller')
+data.setCell(24, 2, 'com.softwaretestingboard.magento.Test.HomePageTest')
+data.setCell(24, 3, 42);
+window.suiteTableData['ParallelSuite']= { tableData: data, tableDiv: 'times-div-ParallelSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-ParallelSuite">
+              </div> <!-- times-div-ParallelSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-ParallelSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for ParallelSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-ParallelSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-ParallelSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.softwaretestingboard.magento.Test.CheckOutTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.softwaretestingboard.magento.Test.CartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">VerifyLoginWhileCheckOutPeod</span>
-                <span class="method-start">3027 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyEditBtnInCart</span>
+                <span class="method-start">5392 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36808 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRemoveProdFromCart</span>
+                <span class="method-start">40725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49777 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.softwaretestingboard.magento.Test.CheckOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWhileCheckOutPeod</span>
+                <span class="method-start">52994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">73807 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.softwaretestingboard.magento.Test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">74194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyBlankSearch</span>
+                <span class="method-start">77742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">78000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyHotSeller</span>
+                <span class="method-start">81070 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">81235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRelatedSearchItems</span>
+                <span class="method-start">83861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84751 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">84880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchProduct</span>
+                <span class="method-start">87526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89517 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.softwaretestingboard.magento.Test.LogOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89659 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LogOut</span>
+                <span class="method-start">93085 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">99378 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.softwaretestingboard.magento.Test.ProductDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">99505 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddToCartProdFromProdDetailsPage</span>
+                <span class="method-start">102242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">109740 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">109943 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddToWishlistWithLogin</span>
+                <span class="method-start">112774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122495 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">122681 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddToWishlistWithoutLogin</span>
+                <span class="method-start">126135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131421 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">131573 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddreviewtoProduct</span>
+                <span class="method-start">134745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">141267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">141398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddtoCartProdWithoutSelectingSize</span>
+                <span class="method-start">144092 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">148475 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">148609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyProductDetails</span>
+                <span class="method-start">152057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">155660 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">155776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRemoveProdFromWishList</span>
+                <span class="method-start">158678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">173480 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.softwaretestingboard.magento.Test.Products</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">173728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddMultipleProdTOCart</span>
+                <span class="method-start">176772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">186704 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">186910 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddProductToCartFromWomenDD</span>
+                <span class="method-start">189610 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">196638 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">196787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyPriceOption</span>
+                <span class="method-start">200262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">203874 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">203995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyShowPerPage</span>
+                <span class="method-start">207464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">212359 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.softwaretestingboard.magento.Test.SignInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">212500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CreateNewAccOnSignInPage</span>
+                <span class="method-start">215836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">218459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">218583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ForgotpassBtn</span>
+                <span class="method-start">221901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">223747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">223864 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SignInValidCred</span>
+                <span class="method-start">226399 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">230793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">230925 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SignInWithInvalidCred</span>
+                <span class="method-start">234271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">237779 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.softwaretestingboard.magento.Test.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">237927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUp</span>
+                <span class="method-start">240467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">264129 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">264382 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpWithRegEmail</span>
+                <span class="method-start">267395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">271186 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
